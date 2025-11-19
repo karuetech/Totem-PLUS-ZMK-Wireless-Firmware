@@ -1,6 +1,4 @@
-layout:
-  zmk_keyboard: totem
-  num_keys: 41
+layout: {zmk_keyboard: totem, dts_layout: totem.dtsi}
 layers:
   Base:
   - Q
