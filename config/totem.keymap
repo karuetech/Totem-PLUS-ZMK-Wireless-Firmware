@@ -235,7 +235,7 @@
         game_type: game_type {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ENTER &to 6>;
+            bindings = <&kp ENTER &to 0>;
             label = "GAME_TYPE";
         };
 
@@ -255,7 +255,7 @@
             bindings = <
             &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y      &kp U              &kp I                &kp O            &kp P      &mo 3
 &kp ESCAPE  &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G        &kp H      &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &kp SEMI   &kp APOS
-&mo 6       &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp DOT          &kp SLASH  &kp BACKSLASH
+&mo 0       &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N      &kp M              &kp COMMA            &kp DOT          &kp SLASH  &kp BACKSLASH
                                             &kp BACKSPACE       &lt 1 SPACE       &kp SPACE    &kp ENTER  &lt 2 BACKSPACE    &kp MINUS
             >;
         };
@@ -306,15 +306,6 @@
 &trans  &hmaccs LSHIFT A  &trans  &trans  &trans  &trans    &trans  &trans   &accs E  &accs I  &hmaccd LEFT_SHIFT O  &trans
 &trans  &trans            &trans  &trans  &trans  &trans    &trans  &trans   &trans   &trans   &accs O               &trans
                                   &trans  &trans  &trans    &trans  &trans   &trans
-            >;
-        };
-
-        GameType {
-            bindings = <
-                     &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-&game_type_exit ESC  &trans  &trans  &trans  &trans  &to 3                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans               &trans  &trans  &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-                                     &trans  &trans  &game_type_exit ENTER    &trans  &trans  &trans
             >;
         };
     };
