@@ -2,6 +2,8 @@
 
 It's a totem with an extra key like the Konrad with a side switch to turn on a gaming mode. Tried to include every ZMK dongle in this repository. Thanks to Eiga for the reference and all the dongle creators.
 
+<img src="https://github.com/karuetech/Totem-PLUS-1-ZMK-Wireless-Firmware/blob/master/keymap-drawer/20251119_102100.jpg">
+
 
 ### Steps
 
